@@ -1,6 +1,6 @@
 #[test]
 fn main() {
-    let num_triangles = 5;
+    let num_triangles = 6;
 
     (1..=num_triangles).for_each(|i| {
         (1..=i).for_each(|row| {
