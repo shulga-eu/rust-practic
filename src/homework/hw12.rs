@@ -1,4 +1,4 @@
-// Функція написана за допомогою AI тому що не можу розібратися, але все одно не працює
+// Функція не працює не можу в ній розібратися
 fn count_permutation(shipments: &Vec<u32>) -> usize {
     let total_weight: u32 = shipments.iter().sum();
     let n = shipments.len() as u32;
